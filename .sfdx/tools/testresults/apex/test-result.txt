@@ -1,0 +1,34 @@
+=== Test Reports
+FORMAT  FILE
+──────  ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     c:\Users\willi\Documents\Orgs Vscode\HexColor-Generator-Apex\.sfdx\tools\testresults\apex\test-result.txt
+txt     c:\Users\willi\Documents\Orgs Vscode\HexColor-Generator-Apex\.sfdx\tools\testresults\apex\test-run-id.txt
+junit   c:\Users\willi\Documents\Orgs Vscode\HexColor-Generator-Apex\.sfdx\tools\testresults\apex\test-result-7072E0000D72ixP-junit.xml
+json    c:\Users\willi\Documents\Orgs Vscode\HexColor-Generator-Apex\.sfdx\tools\testresults\apex\test-result-7072E0000D72ixP.json
+
+=== Test Results
+TEST NAME                                OUTCOME  MESSAGE  RUNTIME (MS)
+───────────────────────────────────────  ───────  ───────  ────────────
+RandomHexColorTest.testGenerateHexColor  Pass              30
+RandomHexColorTest.testRandomDouble      Pass              6
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ──────────────────────────────────────────────────
+Outcome              Passed
+Tests Ran            2
+Passing              2
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Sep 29, 2020 1:51 PM
+Test Execution Time  36 ms
+Test Total Time      36 ms
+Command Time         7027 ms
+Hostname             https://willianmatheus98-dev-ed.my.salesforce.com
+Org Id               00D2E000000ncIsUAI
+Username             wbatista@moldsoft.com.br.devedition
+Test Run Id          7072E0000D72ixP
+User Id              0052E00000Fi60IQAR
+

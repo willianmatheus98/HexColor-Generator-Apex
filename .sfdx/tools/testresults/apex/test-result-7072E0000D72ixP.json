@@ -1,0 +1,70 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 2,
+        "passing": 2,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Sep 29, 2020 1:51 PM",
+        "testExecutionTime": "36 ms",
+        "testTotalTime": "36 ms",
+        "commandTime": "7027 ms",
+        "hostname": "https://willianmatheus98-dev-ed.my.salesforce.com",
+        "orgId": "00D2E000000ncIsUAI",
+        "username": "wbatista@moldsoft.com.br.devedition",
+        "testRunId": "7072E0000D72ixP",
+        "userId": "0052E00000Fi60IQAR"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M2E00000BwNHZUA3"
+            },
+            "Id": "07M2E00000BwNHZUA3",
+            "QueueItemId": "7092E000000qLHUQA2",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072E0000D72ixPQQQ",
+            "MethodName": "testGenerateHexColor",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p2E00000CHUDaQAP"
+                },
+                "Id": "01p2E00000CHUDaQAP",
+                "Name": "RandomHexColorTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 30,
+            "FullName": "RandomHexColorTest.testGenerateHexColor"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M2E00000BwNHaUAN"
+            },
+            "Id": "07M2E00000BwNHaUAN",
+            "QueueItemId": "7092E000000qLHUQA2",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072E0000D72ixPQQQ",
+            "MethodName": "testRandomDouble",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p2E00000CHUDaQAP"
+                },
+                "Id": "01p2E00000CHUDaQAP",
+                "Name": "RandomHexColorTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 6,
+            "FullName": "RandomHexColorTest.testRandomDouble"
+        }
+    ]
+}

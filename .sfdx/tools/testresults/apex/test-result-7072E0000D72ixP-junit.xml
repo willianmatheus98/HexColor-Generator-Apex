@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-09-29T13:51:02-03:00" hostname="https://willianmatheus98-dev-ed.my.salesforce.com" tests="2" failures="0"  errors="0"  time="0.04">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="2"/>
+            <property name="passing" value="2"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Sep 29, 2020 1:51 PM"/>
+            <property name="testExecutionTime" value="0.04 s"/>
+            <property name="testTotalTime" value="0.04 s"/>
+            <property name="commandTime" value="7.03 s"/>
+            <property name="hostname" value="https://willianmatheus98-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D2E000000ncIsUAI"/>
+            <property name="username" value="wbatista@moldsoft.com.br.devedition"/>
+            <property name="testRunId" value="7072E0000D72ixP"/>
+            <property name="userId" value="0052E00000Fi60IQAR"/>
+        </properties>
+        <testcase name="testGenerateHexColor" classname="RandomHexColorTest" time="0.03">
+        </testcase>
+        <testcase name="testRandomDouble" classname="RandomHexColorTest" time="0.01">
+        </testcase>
+    </testsuite>
+</testsuites>
