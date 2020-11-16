@@ -1,3 +1,7 @@
+/**
+ * RandomHexColor Description
+ * @author: Willian Batista
+ */
 public with sharing class RandomHexColor{
 	public static Double randomNumber(){
 		return Double.valueof((Math.random()));
