@@ -34,23 +34,32 @@ node {
 
 			println rc
 			
+            //scratch org
 			// need to pull out assigned username
-			if (isUnix()) {
-				rmsg = sh returnStdout: true, script: "${toolbelt} force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
-			}else{
-			   rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
-			}
+			// if (isUnix()) {
+			// 	rmsg = sh returnStdout: true, script: "${toolbelt} force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
+			// }else{
+			//    rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
+			// }
 			  
-            printf rmsg
-            println('Hello from a Job DSL script!')
-            println(rmsg)
+            // printf rmsg
+            // println('Hello from a Job DSL script!')
+            // println(rmsg)
 
-            // report of the deployment
-			if (isUnix()) {
-				rmsg = sh returnStdout: true, script: "${toolbelt} force:mdapi:deploy:report"
+            // // report of the deployment
+			// if (isUnix()) {
+			// 	rmsg = sh returnStdout: true, script: "${toolbelt} force:mdapi:deploy:report"
+			// }else{
+			//    rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:mdapi:deploy:report"
+			// }
+
+            //manifest xml
+            if (isUnix()) {
+				rmsg = sh returnStdout: true, script: "${toolbelt} force:source:deploy --manifest manifest/package.xml"
 			}else{
-			   rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:mdapi:deploy:report"
+			   rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:deploy --manifest manifest/package.xml"
 			}
+            
 
         }
     }
