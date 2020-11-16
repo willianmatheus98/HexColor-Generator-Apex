@@ -44,6 +44,14 @@ node {
             printf rmsg
             println('Hello from a Job DSL script!')
             println(rmsg)
+
+            // report of the deployment
+			if (isUnix()) {
+				rmsg = sh returnStdout: true, script: "${toolbelt} force:mdapi:deploy:report"
+			}else{
+			   rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:mdapi:deploy:report"
+			}
+
         }
     }
 }
